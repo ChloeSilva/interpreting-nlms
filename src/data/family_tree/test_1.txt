@@ -1,0 +1,2486 @@
+in:
+daughter(alice, mark).
+parent(alexandra, alice).
+male(bob).
+parent(alexandra, bob).
+parent(mark, bob).
+son(bob, mark).
+parent(bill, carol).
+daughter(carol, bill).
+parent(casandra, carol).
+parent(casandra, dave).
+parent(bill, dave).
+son(dave, bill).
+parent(dennis, eve).
+daughter(eve, dennis).
+parent(emma, frank).
+son(frank, dennis).
+female(gina).
+parent(georgia, gina).
+male(hunter).
+parent(fernando, hunter).
+female(isabelle).
+male(jack).
+parent(ivy, jack).
+son(jack, harvey).
+parent(jose, kayla).
+daughter(kayla, jose).
+parent(katy, kayla).
+male(lewis).
+parent(katy, lewis).
+parent(jose, lewis).
+son(lewis, jose).
+female(mia).
+parent(marie, mia).
+male(nick).
+parent(marie, nick).
+parent(leon, nick).
+son(nick, leon).
+female(olivia).
+parent(noah, olivia).
+daughter(olivia, noah).
+female(rose).
+daughter(rose, phil).
+male(sam).
+parent(phil, sam).
+female(tracy).
+parent(steve, tracy).
+daughter(tracy, steve).
+parent(taylor, tracy).
+male(umar).
+parent(taylor, umar).
+parent(steve, umar).
+female(vanessa).
+parent(violet, vanessa).
+male(wayne).
+parent(ulysses, wayne).
+son(wayne, ulysses).
+female(xana).
+parent(wilbert, xana).
+parent(xandra, xana).
+male(yosef).
+parent(wilbert, yosef).
+son(yosef, wilbert).
+female(zara).
+parent(zandra, zara).
+male(mark).
+female(casandra).
+female(emma).
+male(fernando).
+female(georgia).
+male(harvey).
+male(jose).
+female(katy).
+male(leon).
+male(noah).
+female(ollie).
+female(rachel).
+male(steve).
+male(ulysses).
+female(violet).
+male(wilbert).
+male(yuval).
+
+out:
+daughter(alice, mark).
+parent(alexandra, alice).
+male(bob).
+parent(alexandra, bob).
+parent(mark, bob).
+son(bob, mark).
+parent(bill, carol).
+daughter(carol, bill).
+parent(casandra, carol).
+parent(casandra, dave).
+parent(bill, dave).
+son(dave, bill).
+parent(dennis, eve).
+daughter(eve, dennis).
+parent(emma, frank).
+son(frank, dennis).
+female(gina).
+parent(georgia, gina).
+male(hunter).
+parent(fernando, hunter).
+female(isabelle).
+male(jack).
+parent(ivy, jack).
+son(jack, harvey).
+parent(jose, kayla).
+daughter(kayla, jose).
+parent(katy, kayla).
+male(lewis).
+parent(katy, lewis).
+parent(jose, lewis).
+son(lewis, jose).
+female(mia).
+parent(marie, mia).
+male(nick).
+parent(marie, nick).
+parent(leon, nick).
+son(nick, leon).
+female(olivia).
+parent(noah, olivia).
+daughter(olivia, noah).
+female(rose).
+daughter(rose, phil).
+male(sam).
+parent(phil, sam).
+female(tracy).
+parent(steve, tracy).
+daughter(tracy, steve).
+parent(taylor, tracy).
+male(umar).
+parent(taylor, umar).
+parent(steve, umar).
+female(vanessa).
+parent(violet, vanessa).
+male(wayne).
+parent(ulysses, wayne).
+son(wayne, ulysses).
+female(xana).
+parent(wilbert, xana).
+parent(xandra, xana).
+male(yosef).
+parent(wilbert, yosef).
+son(yosef, wilbert).
+female(zara).
+parent(zandra, zara).
+male(mark).
+female(casandra).
+female(emma).
+male(fernando).
+female(georgia).
+male(harvey).
+male(jose).
+female(katy).
+male(leon).
+male(noah).
+female(ollie).
+female(rachel).
+male(steve).
+male(ulysses).
+female(violet).
+male(wilbert).
+male(yuval).
+son(bob, alexandra).
+son(bob, mark).
+son(hunter, fernando).
+son(jack, ivy).
+son(lewis, katy).
+son(lewis, jose).
+son(nick, marie).
+son(nick, leon).
+son(sam, phil).
+son(umar, taylor).
+son(umar, steve).
+son(wayne, ulysses).
+son(yosef, wilbert).
+
+in:
+female(alice).
+parent(hunter, alice).
+daughter(alice, hunter).
+female(carol).
+parent(jack, carol).
+female(eve).
+parent(kayla, eve).
+daughter(eve, kayla).
+male(frank).
+parent(lewis, frank).
+son(frank, lewis).
+parent(kayla, frank).
+son(frank, kayla).
+male(hunter).
+female(isabelle).
+male(jack).
+male(lewis).
+female(mia).
+
+out:
+female(alice).
+parent(hunter, alice).
+daughter(alice, hunter).
+female(carol).
+parent(jack, carol).
+female(eve).
+parent(kayla, eve).
+daughter(eve, kayla).
+male(frank).
+parent(lewis, frank).
+son(frank, lewis).
+parent(kayla, frank).
+son(frank, kayla).
+male(hunter).
+female(isabelle).
+male(jack).
+male(lewis).
+female(mia).
+son(frank, lewis).
+son(frank, kayla).
+
+in:
+female(alice).
+parent(wayne, alice).
+daughter(alice, wayne).
+male(bob).
+parent(wayne, bob).
+son(bob, wayne).
+female(carol).
+parent(zara, carol).
+male(dave).
+parent(zara, dave).
+parent(yosef, dave).
+son(dave, yosef).
+female(eve).
+parent(mark, eve).
+daughter(eve, mark).
+parent(alexandra, eve).
+male(frank).
+female(gina).
+parent(bill, gina).
+daughter(gina, bill).
+parent(casandra, gina).
+male(hunter).
+female(isabelle).
+parent(dennis, isabelle).
+daughter(isabelle, dennis).
+male(jack).
+parent(emma, jack).
+female(kayla).
+daughter(kayla, fernando).
+male(lewis).
+parent(georgia, lewis).
+parent(fernando, lewis).
+female(mia).
+male(nick).
+parent(ivy, nick).
+son(nick, harvey).
+daughter(olivia, jose).
+male(paul).
+son(paul, jose).
+female(rose).
+parent(leon, rose).
+parent(marie, rose).
+parent(marie, sam).
+female(tracy).
+parent(noah, tracy).
+daughter(tracy, noah).
+male(umar).
+parent(ollie, umar).
+female(vanessa).
+parent(phil, vanessa).
+daughter(vanessa, phil).
+parent(rachel, vanessa).
+female(xana).
+male(yosef).
+male(mark).
+female(alexandra).
+male(dennis).
+female(emma).
+male(harvey).
+female(ivy).
+female(katy).
+female(marie).
+male(noah).
+female(ollie).
+male(phil).
+
+out:
+female(alice).
+parent(wayne, alice).
+daughter(alice, wayne).
+male(bob).
+parent(wayne, bob).
+son(bob, wayne).
+female(carol).
+parent(zara, carol).
+male(dave).
+parent(zara, dave).
+parent(yosef, dave).
+son(dave, yosef).
+female(eve).
+parent(mark, eve).
+daughter(eve, mark).
+parent(alexandra, eve).
+male(frank).
+female(gina).
+parent(bill, gina).
+daughter(gina, bill).
+parent(casandra, gina).
+male(hunter).
+female(isabelle).
+parent(dennis, isabelle).
+daughter(isabelle, dennis).
+male(jack).
+parent(emma, jack).
+female(kayla).
+daughter(kayla, fernando).
+male(lewis).
+parent(georgia, lewis).
+parent(fernando, lewis).
+female(mia).
+male(nick).
+parent(ivy, nick).
+son(nick, harvey).
+daughter(olivia, jose).
+male(paul).
+son(paul, jose).
+female(rose).
+parent(leon, rose).
+parent(marie, rose).
+parent(marie, sam).
+female(tracy).
+parent(noah, tracy).
+daughter(tracy, noah).
+male(umar).
+parent(ollie, umar).
+female(vanessa).
+parent(phil, vanessa).
+daughter(vanessa, phil).
+parent(rachel, vanessa).
+female(xana).
+male(yosef).
+male(mark).
+female(alexandra).
+male(dennis).
+female(emma).
+male(harvey).
+female(ivy).
+female(katy).
+female(marie).
+male(noah).
+female(ollie).
+male(phil).
+son(bob, wayne).
+son(dave, zara).
+son(dave, yosef).
+son(jack, emma).
+son(lewis, georgia).
+son(lewis, fernando).
+son(nick, ivy).
+son(umar, ollie).
+
+in:
+female(alice).
+parent(gina, alice).
+male(bob).
+parent(hunter, bob).
+parent(gina, bob).
+son(bob, gina).
+female(carol).
+parent(jack, carol).
+male(dave).
+parent(jack, dave).
+parent(isabelle, dave).
+son(dave, isabelle).
+female(eve).
+parent(kayla, eve).
+daughter(eve, kayla).
+male(frank).
+son(frank, kayla).
+female(gina).
+male(hunter).
+female(isabelle).
+male(jack).
+female(mia).
+
+out:
+female(alice).
+parent(gina, alice).
+male(bob).
+parent(hunter, bob).
+parent(gina, bob).
+son(bob, gina).
+female(carol).
+parent(jack, carol).
+male(dave).
+parent(jack, dave).
+parent(isabelle, dave).
+son(dave, isabelle).
+female(eve).
+parent(kayla, eve).
+daughter(eve, kayla).
+male(frank).
+son(frank, kayla).
+female(gina).
+male(hunter).
+female(isabelle).
+male(jack).
+female(mia).
+son(bob, hunter).
+son(bob, gina).
+son(dave, jack).
+son(dave, isabelle).
+
+in:
+parent(wayne, alice).
+daughter(alice, wayne).
+parent(xana, alice).
+male(bob).
+parent(xana, bob).
+son(bob, xana).
+daughter(carol, yosef).
+parent(zara, carol).
+male(dave).
+parent(zara, dave).
+parent(yosef, dave).
+son(dave, yosef).
+male(frank).
+parent(alexandra, frank).
+parent(mark, frank).
+parent(bill, gina).
+daughter(gina, bill).
+parent(casandra, gina).
+male(hunter).
+parent(casandra, hunter).
+parent(bill, hunter).
+son(hunter, bill).
+female(isabelle).
+parent(emma, isabelle).
+male(jack).
+parent(dennis, jack).
+son(jack, dennis).
+female(kayla).
+parent(georgia, kayla).
+male(lewis).
+parent(fernando, lewis).
+son(lewis, fernando).
+female(mia).
+parent(harvey, mia).
+daughter(mia, harvey).
+parent(ivy, mia).
+male(nick).
+parent(ivy, nick).
+female(olivia).
+parent(jose, olivia).
+daughter(olivia, jose).
+male(paul).
+parent(jose, paul).
+female(rose).
+parent(leon, sam).
+female(tracy).
+parent(noah, tracy).
+daughter(tracy, noah).
+parent(ollie, tracy).
+male(umar).
+parent(ollie, umar).
+parent(noah, umar).
+female(vanessa).
+parent(phil, vanessa).
+daughter(vanessa, phil).
+male(wayne).
+female(xana).
+male(yosef).
+female(zara).
+male(mark).
+female(alexandra).
+male(bill).
+male(fernando).
+male(jose).
+female(katy).
+male(leon).
+male(noah).
+female(ollie).
+male(phil).
+
+out:
+parent(wayne, alice).
+daughter(alice, wayne).
+parent(xana, alice).
+male(bob).
+parent(xana, bob).
+son(bob, xana).
+daughter(carol, yosef).
+parent(zara, carol).
+male(dave).
+parent(zara, dave).
+parent(yosef, dave).
+son(dave, yosef).
+male(frank).
+parent(alexandra, frank).
+parent(mark, frank).
+parent(bill, gina).
+daughter(gina, bill).
+parent(casandra, gina).
+male(hunter).
+parent(casandra, hunter).
+parent(bill, hunter).
+son(hunter, bill).
+female(isabelle).
+parent(emma, isabelle).
+male(jack).
+parent(dennis, jack).
+son(jack, dennis).
+female(kayla).
+parent(georgia, kayla).
+male(lewis).
+parent(fernando, lewis).
+son(lewis, fernando).
+female(mia).
+parent(harvey, mia).
+daughter(mia, harvey).
+parent(ivy, mia).
+male(nick).
+parent(ivy, nick).
+female(olivia).
+parent(jose, olivia).
+daughter(olivia, jose).
+male(paul).
+parent(jose, paul).
+female(rose).
+parent(leon, sam).
+female(tracy).
+parent(noah, tracy).
+daughter(tracy, noah).
+parent(ollie, tracy).
+male(umar).
+parent(ollie, umar).
+parent(noah, umar).
+female(vanessa).
+parent(phil, vanessa).
+daughter(vanessa, phil).
+male(wayne).
+female(xana).
+male(yosef).
+female(zara).
+male(mark).
+female(alexandra).
+male(bill).
+male(fernando).
+male(jose).
+female(katy).
+male(leon).
+male(noah).
+female(ollie).
+male(phil).
+son(bob, xana).
+son(dave, zara).
+son(dave, yosef).
+son(frank, alexandra).
+son(frank, mark).
+son(hunter, casandra).
+son(hunter, bill).
+son(jack, dennis).
+son(lewis, fernando).
+son(nick, ivy).
+son(paul, jose).
+son(umar, ollie).
+son(umar, noah).
+
+in:
+female(alice).
+parent(umar, alice).
+daughter(alice, umar).
+male(bob).
+parent(umar, bob).
+son(bob, umar).
+female(carol).
+parent(wayne, carol).
+daughter(carol, wayne).
+parent(xana, carol).
+male(dave).
+parent(xana, dave).
+son(dave, wayne).
+female(eve).
+parent(zara, eve).
+male(frank).
+parent(yosef, frank).
+female(gina).
+parent(mark, gina).
+daughter(gina, mark).
+parent(alexandra, gina).
+parent(alexandra, hunter).
+parent(mark, hunter).
+son(hunter, mark).
+female(isabelle).
+parent(bill, isabelle).
+daughter(isabelle, bill).
+parent(casandra, isabelle).
+parent(bill, jack).
+daughter(kayla, dennis).
+parent(emma, kayla).
+male(lewis).
+parent(emma, lewis).
+parent(dennis, lewis).
+son(lewis, dennis).
+female(mia).
+parent(fernando, mia).
+daughter(mia, fernando).
+parent(georgia, mia).
+female(olivia).
+parent(ivy, olivia).
+male(paul).
+parent(ivy, paul).
+parent(harvey, paul).
+female(rose).
+parent(jose, rose).
+daughter(rose, jose).
+parent(katy, rose).
+daughter(rose, katy).
+male(sam).
+parent(jose, sam).
+parent(marie, tracy).
+male(umar).
+male(wayne).
+female(xana).
+male(yosef).
+male(mark).
+male(bill).
+female(casandra).
+female(emma).
+male(fernando).
+female(georgia).
+male(harvey).
+female(ivy).
+male(jose).
+female(katy).
+male(leon).
+
+out:
+female(alice).
+parent(umar, alice).
+daughter(alice, umar).
+male(bob).
+parent(umar, bob).
+son(bob, umar).
+female(carol).
+parent(wayne, carol).
+daughter(carol, wayne).
+parent(xana, carol).
+male(dave).
+parent(xana, dave).
+son(dave, wayne).
+female(eve).
+parent(zara, eve).
+male(frank).
+parent(yosef, frank).
+female(gina).
+parent(mark, gina).
+daughter(gina, mark).
+parent(alexandra, gina).
+parent(alexandra, hunter).
+parent(mark, hunter).
+son(hunter, mark).
+female(isabelle).
+parent(bill, isabelle).
+daughter(isabelle, bill).
+parent(casandra, isabelle).
+parent(bill, jack).
+daughter(kayla, dennis).
+parent(emma, kayla).
+male(lewis).
+parent(emma, lewis).
+parent(dennis, lewis).
+son(lewis, dennis).
+female(mia).
+parent(fernando, mia).
+daughter(mia, fernando).
+parent(georgia, mia).
+female(olivia).
+parent(ivy, olivia).
+male(paul).
+parent(ivy, paul).
+parent(harvey, paul).
+female(rose).
+parent(jose, rose).
+daughter(rose, jose).
+parent(katy, rose).
+daughter(rose, katy).
+male(sam).
+parent(jose, sam).
+parent(marie, tracy).
+male(umar).
+male(wayne).
+female(xana).
+male(yosef).
+male(mark).
+male(bill).
+female(casandra).
+female(emma).
+male(fernando).
+female(georgia).
+male(harvey).
+female(ivy).
+male(jose).
+female(katy).
+male(leon).
+son(bob, umar).
+son(dave, xana).
+son(frank, yosef).
+son(lewis, emma).
+son(lewis, dennis).
+son(paul, ivy).
+son(paul, harvey).
+son(sam, jose).
+
+in:
+female(alice).
+parent(jack, alice).
+daughter(alice, jack).
+male(bob).
+parent(kayla, bob).
+parent(jack, bob).
+son(bob, jack).
+female(carol).
+parent(mia, dave).
+son(dave, mia).
+son(dave, lewis).
+female(eve).
+male(frank).
+parent(olivia, frank).
+parent(nick, frank).
+parent(rose, gina).
+daughter(gina, rose).
+male(hunter).
+parent(rose, hunter).
+parent(paul, hunter).
+son(hunter, paul).
+female(isabelle).
+parent(sam, isabelle).
+daughter(isabelle, sam).
+male(jack).
+male(lewis).
+male(nick).
+female(olivia).
+male(paul).
+female(rose).
+male(sam).
+female(tracy).
+
+out:
+female(alice).
+parent(jack, alice).
+daughter(alice, jack).
+male(bob).
+parent(kayla, bob).
+parent(jack, bob).
+son(bob, jack).
+female(carol).
+parent(mia, dave).
+son(dave, mia).
+son(dave, lewis).
+female(eve).
+male(frank).
+parent(olivia, frank).
+parent(nick, frank).
+parent(rose, gina).
+daughter(gina, rose).
+male(hunter).
+parent(rose, hunter).
+parent(paul, hunter).
+son(hunter, paul).
+female(isabelle).
+parent(sam, isabelle).
+daughter(isabelle, sam).
+male(jack).
+male(lewis).
+male(nick).
+female(olivia).
+male(paul).
+female(rose).
+male(sam).
+female(tracy).
+son(bob, kayla).
+son(bob, jack).
+son(frank, olivia).
+son(frank, nick).
+son(hunter, rose).
+son(hunter, paul).
+
+in:
+daughter(alice, vanessa).
+parent(wayne, alice).
+male(bob).
+parent(wayne, bob).
+parent(vanessa, bob).
+son(bob, vanessa).
+female(carol).
+daughter(carol, xana).
+parent(xana, dave).
+son(dave, xana).
+female(eve).
+male(frank).
+parent(mark, frank).
+parent(zara, frank).
+son(frank, zara).
+female(gina).
+parent(alexandra, gina).
+daughter(gina, alexandra).
+parent(bill, gina).
+parent(bill, hunter).
+parent(alexandra, hunter).
+son(hunter, alexandra).
+female(isabelle).
+parent(casandra, isabelle).
+daughter(isabelle, casandra).
+parent(dennis, jack).
+parent(casandra, jack).
+son(jack, casandra).
+female(kayla).
+male(lewis).
+parent(emma, lewis).
+son(lewis, emma).
+parent(georgia, mia).
+parent(harvey, mia).
+parent(georgia, nick).
+female(olivia).
+parent(ivy, olivia).
+parent(jose, olivia).
+parent(jose, paul).
+parent(ivy, paul).
+son(paul, ivy).
+female(tracy).
+parent(marie, tracy).
+daughter(tracy, marie).
+parent(noah, tracy).
+male(umar).
+parent(noah, umar).
+female(vanessa).
+male(wayne).
+female(xana).
+male(yosef).
+female(zara).
+male(mark).
+female(alexandra).
+female(casandra).
+male(dennis).
+female(emma).
+male(fernando).
+female(georgia).
+male(harvey).
+female(ivy).
+male(jose).
+male(leon).
+female(marie).
+male(noah).
+
+out:
+daughter(alice, vanessa).
+parent(wayne, alice).
+male(bob).
+parent(wayne, bob).
+parent(vanessa, bob).
+son(bob, vanessa).
+female(carol).
+daughter(carol, xana).
+parent(xana, dave).
+son(dave, xana).
+female(eve).
+male(frank).
+parent(mark, frank).
+parent(zara, frank).
+son(frank, zara).
+female(gina).
+parent(alexandra, gina).
+daughter(gina, alexandra).
+parent(bill, gina).
+parent(bill, hunter).
+parent(alexandra, hunter).
+son(hunter, alexandra).
+female(isabelle).
+parent(casandra, isabelle).
+daughter(isabelle, casandra).
+parent(dennis, jack).
+parent(casandra, jack).
+son(jack, casandra).
+female(kayla).
+male(lewis).
+parent(emma, lewis).
+son(lewis, emma).
+parent(georgia, mia).
+parent(harvey, mia).
+parent(georgia, nick).
+female(olivia).
+parent(ivy, olivia).
+parent(jose, olivia).
+parent(jose, paul).
+parent(ivy, paul).
+son(paul, ivy).
+female(tracy).
+parent(marie, tracy).
+daughter(tracy, marie).
+parent(noah, tracy).
+male(umar).
+parent(noah, umar).
+female(vanessa).
+male(wayne).
+female(xana).
+male(yosef).
+female(zara).
+male(mark).
+female(alexandra).
+female(casandra).
+male(dennis).
+female(emma).
+male(fernando).
+female(georgia).
+male(harvey).
+female(ivy).
+male(jose).
+male(leon).
+female(marie).
+male(noah).
+son(bob, wayne).
+son(bob, vanessa).
+son(frank, mark).
+son(frank, zara).
+son(lewis, emma).
+son(umar, noah).
+
+in:
+female(alice).
+daughter(alice, zara).
+parent(mark, alice).
+male(bob).
+female(carol).
+parent(alexandra, carol).
+parent(bill, carol).
+male(dave).
+parent(alexandra, dave).
+son(dave, alexandra).
+female(eve).
+parent(casandra, eve).
+daughter(eve, casandra).
+parent(casandra, frank).
+son(frank, casandra).
+female(gina).
+parent(emma, gina).
+parent(fernando, gina).
+male(hunter).
+parent(fernando, hunter).
+son(hunter, emma).
+female(isabelle).
+parent(georgia, isabelle).
+daughter(isabelle, georgia).
+parent(harvey, isabelle).
+male(jack).
+parent(georgia, jack).
+son(jack, georgia).
+female(kayla).
+parent(jose, kayla).
+male(lewis).
+parent(ivy, lewis).
+son(lewis, ivy).
+female(mia).
+parent(leon, mia).
+parent(katy, nick).
+male(paul).
+parent(noah, paul).
+male(sam).
+parent(ollie, sam).
+son(sam, ollie).
+female(tracy).
+parent(rachel, tracy).
+daughter(tracy, rachel).
+parent(steve, tracy).
+female(vanessa).
+parent(taylor, vanessa).
+daughter(vanessa, taylor).
+parent(ulysses, vanessa).
+male(wayne).
+parent(ulysses, wayne).
+parent(taylor, wayne).
+son(wayne, taylor).
+female(xana).
+male(yosef).
+parent(wilbert, yosef).
+female(zara).
+male(mark).
+female(alexandra).
+male(bill).
+female(casandra).
+male(dennis).
+female(emma).
+female(georgia).
+male(harvey).
+female(ivy).
+female(katy).
+male(leon).
+female(marie).
+male(noah).
+female(ollie).
+female(rachel).
+female(taylor).
+male(ulysses).
+female(violet).
+male(wilbert).
+
+out:
+female(alice).
+daughter(alice, zara).
+parent(mark, alice).
+male(bob).
+female(carol).
+parent(alexandra, carol).
+parent(bill, carol).
+male(dave).
+parent(alexandra, dave).
+son(dave, alexandra).
+female(eve).
+parent(casandra, eve).
+daughter(eve, casandra).
+parent(casandra, frank).
+son(frank, casandra).
+female(gina).
+parent(emma, gina).
+parent(fernando, gina).
+male(hunter).
+parent(fernando, hunter).
+son(hunter, emma).
+female(isabelle).
+parent(georgia, isabelle).
+daughter(isabelle, georgia).
+parent(harvey, isabelle).
+male(jack).
+parent(georgia, jack).
+son(jack, georgia).
+female(kayla).
+parent(jose, kayla).
+male(lewis).
+parent(ivy, lewis).
+son(lewis, ivy).
+female(mia).
+parent(leon, mia).
+parent(katy, nick).
+male(paul).
+parent(noah, paul).
+male(sam).
+parent(ollie, sam).
+son(sam, ollie).
+female(tracy).
+parent(rachel, tracy).
+daughter(tracy, rachel).
+parent(steve, tracy).
+female(vanessa).
+parent(taylor, vanessa).
+daughter(vanessa, taylor).
+parent(ulysses, vanessa).
+male(wayne).
+parent(ulysses, wayne).
+parent(taylor, wayne).
+son(wayne, taylor).
+female(xana).
+male(yosef).
+parent(wilbert, yosef).
+female(zara).
+male(mark).
+female(alexandra).
+male(bill).
+female(casandra).
+male(dennis).
+female(emma).
+female(georgia).
+male(harvey).
+female(ivy).
+female(katy).
+male(leon).
+female(marie).
+male(noah).
+female(ollie).
+female(rachel).
+female(taylor).
+male(ulysses).
+female(violet).
+male(wilbert).
+son(dave, alexandra).
+son(hunter, fernando).
+son(jack, georgia).
+son(lewis, ivy).
+son(paul, noah).
+son(sam, ollie).
+son(wayne, ulysses).
+son(wayne, taylor).
+son(yosef, wilbert).
+
+in:
+female(alice).
+male(bob).
+parent(zara, bob).
+parent(yosef, bob).
+son(bob, yosef).
+female(carol).
+parent(mark, carol).
+daughter(carol, mark).
+parent(alexandra, carol).
+female(eve).
+male(frank).
+parent(casandra, frank).
+female(gina).
+daughter(gina, dennis).
+parent(emma, gina).
+daughter(gina, emma).
+male(hunter).
+son(hunter, dennis).
+female(isabelle).
+parent(fernando, isabelle).
+daughter(isabelle, fernando).
+male(jack).
+parent(harvey, kayla).
+parent(ivy, kayla).
+male(lewis).
+parent(ivy, lewis).
+son(lewis, ivy).
+daughter(mia, jose).
+parent(katy, mia).
+parent(katy, nick).
+parent(jose, nick).
+son(nick, jose).
+female(olivia).
+parent(leon, olivia).
+parent(marie, olivia).
+daughter(olivia, marie).
+male(paul).
+parent(marie, paul).
+parent(leon, paul).
+son(paul, leon).
+female(rose).
+parent(noah, rose).
+daughter(rose, noah).
+parent(ollie, rose).
+daughter(rose, ollie).
+male(sam).
+female(tracy).
+parent(phil, tracy).
+daughter(tracy, phil).
+parent(rachel, tracy).
+male(umar).
+parent(phil, umar).
+son(umar, phil).
+parent(steve, vanessa).
+parent(taylor, vanessa).
+son(wayne, steve).
+female(xana).
+parent(ulysses, xana).
+parent(violet, xana).
+female(alexandra).
+female(emma).
+female(georgia).
+male(harvey).
+female(ivy).
+male(jose).
+female(marie).
+male(noah).
+male(phil).
+female(rachel).
+female(taylor).
+male(ulysses).
+
+out:
+female(alice).
+male(bob).
+parent(zara, bob).
+parent(yosef, bob).
+son(bob, yosef).
+female(carol).
+parent(mark, carol).
+daughter(carol, mark).
+parent(alexandra, carol).
+female(eve).
+male(frank).
+parent(casandra, frank).
+female(gina).
+daughter(gina, dennis).
+parent(emma, gina).
+daughter(gina, emma).
+male(hunter).
+son(hunter, dennis).
+female(isabelle).
+parent(fernando, isabelle).
+daughter(isabelle, fernando).
+male(jack).
+parent(harvey, kayla).
+parent(ivy, kayla).
+male(lewis).
+parent(ivy, lewis).
+son(lewis, ivy).
+daughter(mia, jose).
+parent(katy, mia).
+parent(katy, nick).
+parent(jose, nick).
+son(nick, jose).
+female(olivia).
+parent(leon, olivia).
+parent(marie, olivia).
+daughter(olivia, marie).
+male(paul).
+parent(marie, paul).
+parent(leon, paul).
+son(paul, leon).
+female(rose).
+parent(noah, rose).
+daughter(rose, noah).
+parent(ollie, rose).
+daughter(rose, ollie).
+male(sam).
+female(tracy).
+parent(phil, tracy).
+daughter(tracy, phil).
+parent(rachel, tracy).
+male(umar).
+parent(phil, umar).
+son(umar, phil).
+parent(steve, vanessa).
+parent(taylor, vanessa).
+son(wayne, steve).
+female(xana).
+parent(ulysses, xana).
+parent(violet, xana).
+female(alexandra).
+female(emma).
+female(georgia).
+male(harvey).
+female(ivy).
+male(jose).
+female(marie).
+male(noah).
+male(phil).
+female(rachel).
+female(taylor).
+male(ulysses).
+son(bob, zara).
+son(bob, yosef).
+son(frank, casandra).
+son(lewis, ivy).
+son(paul, marie).
+son(paul, leon).
+son(umar, phil).
+
+in:
+parent(yosef, alice).
+daughter(alice, yosef).
+male(bob).
+female(carol).
+parent(mark, carol).
+daughter(carol, mark).
+parent(alexandra, carol).
+male(dave).
+parent(alexandra, dave).
+son(dave, mark).
+female(eve).
+parent(casandra, eve).
+daughter(eve, casandra).
+male(frank).
+parent(bill, frank).
+son(frank, bill).
+female(gina).
+parent(dennis, gina).
+daughter(gina, dennis).
+parent(emma, gina).
+female(isabelle).
+parent(fernando, isabelle).
+daughter(isabelle, fernando).
+parent(georgia, isabelle).
+male(jack).
+parent(georgia, jack).
+parent(fernando, jack).
+son(jack, fernando).
+female(kayla).
+parent(harvey, kayla).
+daughter(kayla, harvey).
+parent(ivy, kayla).
+parent(harvey, lewis).
+son(lewis, harvey).
+parent(jose, mia).
+daughter(mia, jose).
+parent(katy, mia).
+parent(katy, nick).
+parent(jose, nick).
+son(nick, jose).
+female(olivia).
+parent(marie, olivia).
+male(paul).
+female(rose).
+parent(noah, rose).
+daughter(rose, noah).
+parent(ollie, rose).
+male(sam).
+parent(noah, sam).
+female(tracy).
+parent(phil, tracy).
+daughter(tracy, phil).
+parent(rachel, tracy).
+female(vanessa).
+parent(steve, vanessa).
+daughter(vanessa, steve).
+parent(taylor, vanessa).
+male(wayne).
+son(wayne, steve).
+parent(violet, xana).
+male(yosef).
+female(zara).
+male(mark).
+female(alexandra).
+male(bill).
+female(casandra).
+male(dennis).
+female(emma).
+female(georgia).
+female(ivy).
+female(katy).
+male(leon).
+male(noah).
+female(ollie).
+male(phil).
+female(rachel).
+male(steve).
+female(taylor).
+male(ulysses).
+
+out:
+parent(yosef, alice).
+daughter(alice, yosef).
+male(bob).
+female(carol).
+parent(mark, carol).
+daughter(carol, mark).
+parent(alexandra, carol).
+male(dave).
+parent(alexandra, dave).
+son(dave, mark).
+female(eve).
+parent(casandra, eve).
+daughter(eve, casandra).
+male(frank).
+parent(bill, frank).
+son(frank, bill).
+female(gina).
+parent(dennis, gina).
+daughter(gina, dennis).
+parent(emma, gina).
+female(isabelle).
+parent(fernando, isabelle).
+daughter(isabelle, fernando).
+parent(georgia, isabelle).
+male(jack).
+parent(georgia, jack).
+parent(fernando, jack).
+son(jack, fernando).
+female(kayla).
+parent(harvey, kayla).
+daughter(kayla, harvey).
+parent(ivy, kayla).
+parent(harvey, lewis).
+son(lewis, harvey).
+parent(jose, mia).
+daughter(mia, jose).
+parent(katy, mia).
+parent(katy, nick).
+parent(jose, nick).
+son(nick, jose).
+female(olivia).
+parent(marie, olivia).
+male(paul).
+female(rose).
+parent(noah, rose).
+daughter(rose, noah).
+parent(ollie, rose).
+male(sam).
+parent(noah, sam).
+female(tracy).
+parent(phil, tracy).
+daughter(tracy, phil).
+parent(rachel, tracy).
+female(vanessa).
+parent(steve, vanessa).
+daughter(vanessa, steve).
+parent(taylor, vanessa).
+male(wayne).
+son(wayne, steve).
+parent(violet, xana).
+male(yosef).
+female(zara).
+male(mark).
+female(alexandra).
+male(bill).
+female(casandra).
+male(dennis).
+female(emma).
+female(georgia).
+female(ivy).
+female(katy).
+male(leon).
+male(noah).
+female(ollie).
+male(phil).
+female(rachel).
+male(steve).
+female(taylor).
+male(ulysses).
+son(dave, alexandra).
+son(frank, bill).
+son(jack, georgia).
+son(jack, fernando).
+son(sam, noah).
+
+in:
+female(alice).
+parent(zara, alice).
+daughter(alice, zara).
+male(bob).
+parent(zara, bob).
+parent(alexandra, carol).
+daughter(carol, alexandra).
+parent(alexandra, dave).
+male(frank).
+parent(dennis, frank).
+parent(casandra, frank).
+son(frank, casandra).
+female(gina).
+daughter(gina, emma).
+parent(fernando, gina).
+male(hunter).
+parent(emma, hunter).
+son(hunter, emma).
+parent(georgia, isabelle).
+daughter(isabelle, georgia).
+male(jack).
+son(jack, harvey).
+parent(georgia, jack).
+son(jack, georgia).
+parent(ivy, kayla).
+daughter(kayla, ivy).
+parent(jose, kayla).
+male(lewis).
+parent(jose, lewis).
+parent(katy, mia).
+daughter(mia, katy).
+parent(katy, nick).
+son(nick, katy).
+female(olivia).
+parent(noah, paul).
+son(paul, marie).
+female(rose).
+parent(ollie, rose).
+daughter(rose, ollie).
+daughter(rose, phil).
+parent(phil, sam).
+parent(ollie, sam).
+son(sam, ollie).
+female(tracy).
+parent(steve, tracy).
+male(umar).
+son(umar, rachel).
+parent(taylor, vanessa).
+daughter(vanessa, taylor).
+parent(ulysses, wayne).
+parent(taylor, wayne).
+son(wayne, taylor).
+parent(wilbert, xana).
+parent(wilbert, yosef).
+son(yosef, violet).
+female(zara).
+female(alexandra).
+female(emma).
+female(georgia).
+male(harvey).
+female(ivy).
+male(jose).
+female(katy).
+male(leon).
+female(ollie).
+male(phil).
+female(rachel).
+male(steve).
+female(taylor).
+female(violet).
+female(xandra).
+
+out:
+female(alice).
+parent(zara, alice).
+daughter(alice, zara).
+male(bob).
+parent(zara, bob).
+parent(alexandra, carol).
+daughter(carol, alexandra).
+parent(alexandra, dave).
+male(frank).
+parent(dennis, frank).
+parent(casandra, frank).
+son(frank, casandra).
+female(gina).
+daughter(gina, emma).
+parent(fernando, gina).
+male(hunter).
+parent(emma, hunter).
+son(hunter, emma).
+parent(georgia, isabelle).
+daughter(isabelle, georgia).
+male(jack).
+son(jack, harvey).
+parent(georgia, jack).
+son(jack, georgia).
+parent(ivy, kayla).
+daughter(kayla, ivy).
+parent(jose, kayla).
+male(lewis).
+parent(jose, lewis).
+parent(katy, mia).
+daughter(mia, katy).
+parent(katy, nick).
+son(nick, katy).
+female(olivia).
+parent(noah, paul).
+son(paul, marie).
+female(rose).
+parent(ollie, rose).
+daughter(rose, ollie).
+daughter(rose, phil).
+parent(phil, sam).
+parent(ollie, sam).
+son(sam, ollie).
+female(tracy).
+parent(steve, tracy).
+male(umar).
+son(umar, rachel).
+parent(taylor, vanessa).
+daughter(vanessa, taylor).
+parent(ulysses, wayne).
+parent(taylor, wayne).
+son(wayne, taylor).
+parent(wilbert, xana).
+parent(wilbert, yosef).
+son(yosef, violet).
+female(zara).
+female(alexandra).
+female(emma).
+female(georgia).
+male(harvey).
+female(ivy).
+male(jose).
+female(katy).
+male(leon).
+female(ollie).
+male(phil).
+female(rachel).
+male(steve).
+female(taylor).
+female(violet).
+female(xandra).
+son(bob, zara).
+son(frank, dennis).
+son(frank, casandra).
+son(hunter, emma).
+son(jack, georgia).
+son(lewis, jose).
+
+in:
+daughter(alice, zara).
+parent(mark, alice).
+male(bob).
+parent(mark, bob).
+female(carol).
+parent(alexandra, carol).
+daughter(carol, alexandra).
+male(dave).
+son(dave, alexandra).
+daughter(eve, casandra).
+parent(dennis, eve).
+male(frank).
+son(frank, casandra).
+female(gina).
+parent(emma, gina).
+daughter(gina, emma).
+parent(fernando, gina).
+male(hunter).
+parent(fernando, hunter).
+parent(emma, hunter).
+son(hunter, emma).
+parent(harvey, isabelle).
+male(jack).
+parent(harvey, jack).
+female(kayla).
+parent(ivy, kayla).
+daughter(kayla, ivy).
+male(lewis).
+parent(ivy, lewis).
+son(lewis, ivy).
+female(mia).
+daughter(mia, katy).
+parent(leon, mia).
+male(nick).
+female(olivia).
+male(paul).
+parent(noah, paul).
+daughter(rose, ollie).
+parent(phil, rose).
+parent(phil, sam).
+female(tracy).
+parent(steve, tracy).
+parent(rachel, umar).
+parent(taylor, vanessa).
+daughter(vanessa, taylor).
+parent(ulysses, vanessa).
+male(wayne).
+parent(ulysses, wayne).
+parent(taylor, wayne).
+son(wayne, taylor).
+female(xana).
+parent(violet, xana).
+daughter(xana, violet).
+male(yosef).
+son(yosef, violet).
+male(mark).
+female(alexandra).
+male(bill).
+female(casandra).
+female(emma).
+male(fernando).
+female(georgia).
+male(harvey).
+female(ivy).
+male(jose).
+female(katy).
+male(leon).
+male(noah).
+female(ollie).
+male(phil).
+female(rachel).
+male(steve).
+female(taylor).
+female(violet).
+male(wilbert).
+female(xandra).
+
+out:
+daughter(alice, zara).
+parent(mark, alice).
+male(bob).
+parent(mark, bob).
+female(carol).
+parent(alexandra, carol).
+daughter(carol, alexandra).
+male(dave).
+son(dave, alexandra).
+daughter(eve, casandra).
+parent(dennis, eve).
+male(frank).
+son(frank, casandra).
+female(gina).
+parent(emma, gina).
+daughter(gina, emma).
+parent(fernando, gina).
+male(hunter).
+parent(fernando, hunter).
+parent(emma, hunter).
+son(hunter, emma).
+parent(harvey, isabelle).
+male(jack).
+parent(harvey, jack).
+female(kayla).
+parent(ivy, kayla).
+daughter(kayla, ivy).
+male(lewis).
+parent(ivy, lewis).
+son(lewis, ivy).
+female(mia).
+daughter(mia, katy).
+parent(leon, mia).
+male(nick).
+female(olivia).
+male(paul).
+parent(noah, paul).
+daughter(rose, ollie).
+parent(phil, rose).
+parent(phil, sam).
+female(tracy).
+parent(steve, tracy).
+parent(rachel, umar).
+parent(taylor, vanessa).
+daughter(vanessa, taylor).
+parent(ulysses, vanessa).
+male(wayne).
+parent(ulysses, wayne).
+parent(taylor, wayne).
+son(wayne, taylor).
+female(xana).
+parent(violet, xana).
+daughter(xana, violet).
+male(yosef).
+son(yosef, violet).
+male(mark).
+female(alexandra).
+male(bill).
+female(casandra).
+female(emma).
+male(fernando).
+female(georgia).
+male(harvey).
+female(ivy).
+male(jose).
+female(katy).
+male(leon).
+male(noah).
+female(ollie).
+male(phil).
+female(rachel).
+male(steve).
+female(taylor).
+female(violet).
+male(wilbert).
+female(xandra).
+son(bob, mark).
+son(hunter, fernando).
+son(hunter, emma).
+son(jack, harvey).
+son(lewis, ivy).
+son(paul, noah).
+son(wayne, ulysses).
+son(wayne, taylor).
+
+in:
+female(alice).
+parent(xana, alice).
+male(bob).
+parent(xana, bob).
+female(carol).
+parent(yosef, carol).
+daughter(carol, yosef).
+parent(zara, carol).
+male(dave).
+son(dave, yosef).
+female(eve).
+parent(mark, eve).
+daughter(eve, mark).
+parent(alexandra, eve).
+parent(alexandra, frank).
+parent(mark, frank).
+son(frank, mark).
+daughter(gina, bill).
+parent(casandra, gina).
+daughter(gina, casandra).
+male(hunter).
+parent(casandra, hunter).
+parent(bill, hunter).
+parent(dennis, isabelle).
+daughter(isabelle, dennis).
+parent(emma, isabelle).
+male(jack).
+female(kayla).
+parent(georgia, kayla).
+daughter(kayla, georgia).
+male(lewis).
+parent(georgia, lewis).
+female(mia).
+parent(harvey, mia).
+daughter(mia, harvey).
+parent(ivy, mia).
+parent(harvey, nick).
+son(nick, harvey).
+female(olivia).
+parent(katy, olivia).
+male(paul).
+female(rose).
+parent(leon, rose).
+daughter(rose, leon).
+parent(marie, rose).
+male(sam).
+parent(marie, sam).
+parent(noah, tracy).
+daughter(tracy, noah).
+parent(ollie, tracy).
+male(umar).
+parent(ollie, umar).
+parent(noah, umar).
+son(umar, noah).
+male(wayne).
+female(zara).
+female(alexandra).
+female(casandra).
+female(emma).
+male(fernando).
+male(harvey).
+male(jose).
+female(katy).
+male(leon).
+female(marie).
+male(noah).
+female(ollie).
+male(phil).
+
+out:
+female(alice).
+parent(xana, alice).
+male(bob).
+parent(xana, bob).
+female(carol).
+parent(yosef, carol).
+daughter(carol, yosef).
+parent(zara, carol).
+male(dave).
+son(dave, yosef).
+female(eve).
+parent(mark, eve).
+daughter(eve, mark).
+parent(alexandra, eve).
+parent(alexandra, frank).
+parent(mark, frank).
+son(frank, mark).
+daughter(gina, bill).
+parent(casandra, gina).
+daughter(gina, casandra).
+male(hunter).
+parent(casandra, hunter).
+parent(bill, hunter).
+parent(dennis, isabelle).
+daughter(isabelle, dennis).
+parent(emma, isabelle).
+male(jack).
+female(kayla).
+parent(georgia, kayla).
+daughter(kayla, georgia).
+male(lewis).
+parent(georgia, lewis).
+female(mia).
+parent(harvey, mia).
+daughter(mia, harvey).
+parent(ivy, mia).
+parent(harvey, nick).
+son(nick, harvey).
+female(olivia).
+parent(katy, olivia).
+male(paul).
+female(rose).
+parent(leon, rose).
+daughter(rose, leon).
+parent(marie, rose).
+male(sam).
+parent(marie, sam).
+parent(noah, tracy).
+daughter(tracy, noah).
+parent(ollie, tracy).
+male(umar).
+parent(ollie, umar).
+parent(noah, umar).
+son(umar, noah).
+male(wayne).
+female(zara).
+female(alexandra).
+female(casandra).
+female(emma).
+male(fernando).
+male(harvey).
+male(jose).
+female(katy).
+male(leon).
+female(marie).
+male(noah).
+female(ollie).
+male(phil).
+son(bob, xana).
+son(hunter, casandra).
+son(hunter, bill).
+son(lewis, georgia).
+son(sam, marie).
+son(umar, ollie).
+son(umar, noah).
+
+in:
+parent(mia, alice).
+daughter(alice, mia).
+male(bob).
+parent(mia, bob).
+son(bob, mia).
+female(carol).
+parent(olivia, carol).
+female(eve).
+daughter(eve, paul).
+parent(rose, frank).
+parent(paul, frank).
+son(frank, paul).
+female(gina).
+daughter(gina, sam).
+parent(tracy, gina).
+son(hunter, sam).
+female(isabelle).
+parent(umar, isabelle).
+daughter(isabelle, umar).
+son(jack, umar).
+female(kayla).
+parent(wayne, kayla).
+daughter(kayla, wayne).
+male(lewis).
+female(mia).
+female(olivia).
+male(paul).
+female(rose).
+male(umar).
+male(wayne).
+
+out:
+parent(mia, alice).
+daughter(alice, mia).
+male(bob).
+parent(mia, bob).
+son(bob, mia).
+female(carol).
+parent(olivia, carol).
+female(eve).
+daughter(eve, paul).
+parent(rose, frank).
+parent(paul, frank).
+son(frank, paul).
+female(gina).
+daughter(gina, sam).
+parent(tracy, gina).
+son(hunter, sam).
+female(isabelle).
+parent(umar, isabelle).
+daughter(isabelle, umar).
+son(jack, umar).
+female(kayla).
+parent(wayne, kayla).
+daughter(kayla, wayne).
+male(lewis).
+female(mia).
+female(olivia).
+male(paul).
+female(rose).
+male(umar).
+male(wayne).
+son(bob, mia).
+
+in:
+female(alice).
+parent(rose, alice).
+parent(sam, alice).
+parent(sam, bob).
+son(bob, rose).
+female(carol).
+parent(tracy, carol).
+daughter(carol, tracy).
+male(dave).
+parent(umar, dave).
+parent(wayne, frank).
+parent(vanessa, frank).
+son(frank, vanessa).
+female(gina).
+parent(yosef, gina).
+male(hunter).
+parent(yosef, hunter).
+female(isabelle).
+parent(mark, isabelle).
+male(jack).
+female(kayla).
+parent(bill, kayla).
+male(lewis).
+parent(bill, lewis).
+parent(alexandra, lewis).
+son(lewis, alexandra).
+female(mia).
+parent(dennis, mia).
+parent(casandra, nick).
+son(nick, casandra).
+female(olivia).
+parent(fernando, olivia).
+parent(fernando, paul).
+parent(emma, paul).
+son(paul, emma).
+female(rose).
+male(sam).
+male(umar).
+male(wayne).
+female(xana).
+female(zara).
+male(mark).
+female(alexandra).
+male(bill).
+female(casandra).
+male(fernando).
+female(georgia).
+
+out:
+female(alice).
+parent(rose, alice).
+parent(sam, alice).
+parent(sam, bob).
+son(bob, rose).
+female(carol).
+parent(tracy, carol).
+daughter(carol, tracy).
+male(dave).
+parent(umar, dave).
+parent(wayne, frank).
+parent(vanessa, frank).
+son(frank, vanessa).
+female(gina).
+parent(yosef, gina).
+male(hunter).
+parent(yosef, hunter).
+female(isabelle).
+parent(mark, isabelle).
+male(jack).
+female(kayla).
+parent(bill, kayla).
+male(lewis).
+parent(bill, lewis).
+parent(alexandra, lewis).
+son(lewis, alexandra).
+female(mia).
+parent(dennis, mia).
+parent(casandra, nick).
+son(nick, casandra).
+female(olivia).
+parent(fernando, olivia).
+parent(fernando, paul).
+parent(emma, paul).
+son(paul, emma).
+female(rose).
+male(sam).
+male(umar).
+male(wayne).
+female(xana).
+female(zara).
+male(mark).
+female(alexandra).
+male(bill).
+female(casandra).
+male(fernando).
+female(georgia).
+son(dave, umar).
+son(hunter, yosef).
+son(lewis, bill).
+son(lewis, alexandra).
+
+in:
+female(alice).
+parent(sam, alice).
+daughter(alice, sam).
+male(bob).
+parent(sam, bob).
+parent(rose, bob).
+son(bob, rose).
+female(carol).
+male(dave).
+parent(umar, dave).
+son(dave, umar).
+parent(tracy, dave).
+son(dave, tracy).
+parent(vanessa, eve).
+daughter(eve, vanessa).
+male(frank).
+parent(vanessa, frank).
+son(frank, vanessa).
+female(gina).
+male(hunter).
+parent(yosef, hunter).
+parent(xana, hunter).
+son(hunter, xana).
+female(isabelle).
+parent(mark, isabelle).
+male(jack).
+parent(mark, jack).
+parent(zara, jack).
+son(jack, zara).
+female(kayla).
+daughter(kayla, bill).
+male(lewis).
+parent(bill, lewis).
+female(mia).
+parent(dennis, mia).
+son(nick, casandra).
+parent(emma, olivia).
+daughter(olivia, emma).
+male(paul).
+parent(emma, paul).
+son(paul, emma).
+female(rose).
+female(tracy).
+male(umar).
+female(vanessa).
+male(wayne).
+female(xana).
+male(yosef).
+female(zara).
+male(mark).
+female(casandra).
+female(emma).
+
+out:
+female(alice).
+parent(sam, alice).
+daughter(alice, sam).
+male(bob).
+parent(sam, bob).
+parent(rose, bob).
+son(bob, rose).
+female(carol).
+male(dave).
+parent(umar, dave).
+son(dave, umar).
+parent(tracy, dave).
+son(dave, tracy).
+parent(vanessa, eve).
+daughter(eve, vanessa).
+male(frank).
+parent(vanessa, frank).
+son(frank, vanessa).
+female(gina).
+male(hunter).
+parent(yosef, hunter).
+parent(xana, hunter).
+son(hunter, xana).
+female(isabelle).
+parent(mark, isabelle).
+male(jack).
+parent(mark, jack).
+parent(zara, jack).
+son(jack, zara).
+female(kayla).
+daughter(kayla, bill).
+male(lewis).
+parent(bill, lewis).
+female(mia).
+parent(dennis, mia).
+son(nick, casandra).
+parent(emma, olivia).
+daughter(olivia, emma).
+male(paul).
+parent(emma, paul).
+son(paul, emma).
+female(rose).
+female(tracy).
+male(umar).
+female(vanessa).
+male(wayne).
+female(xana).
+male(yosef).
+female(zara).
+male(mark).
+female(casandra).
+female(emma).
+son(bob, sam).
+son(bob, rose).
+son(dave, umar).
+son(dave, tracy).
+son(frank, vanessa).
+son(hunter, yosef).
+son(hunter, xana).
+son(jack, mark).
+son(jack, zara).
+son(lewis, bill).
+son(paul, emma).
+
+in:
+female(alice).
+male(bob).
+parent(carol, bob).
+female(carol).
+female(eve).
+
+out:
+female(alice).
+male(bob).
+parent(carol, bob).
+female(carol).
+female(eve).
+son(bob, carol).
+
+in:
+female(alice).
+parent(vanessa, alice).
+parent(wayne, alice).
+male(bob).
+parent(wayne, bob).
+parent(vanessa, bob).
+son(bob, vanessa).
+female(carol).
+parent(yosef, dave).
+parent(xana, dave).
+son(dave, xana).
+female(eve).
+parent(zara, eve).
+daughter(eve, zara).
+parent(mark, eve).
+daughter(eve, mark).
+male(frank).
+daughter(gina, alexandra).
+parent(alexandra, hunter).
+son(hunter, alexandra).
+daughter(isabelle, casandra).
+parent(dennis, isabelle).
+daughter(isabelle, dennis).
+male(jack).
+parent(casandra, jack).
+female(kayla).
+daughter(kayla, emma).
+parent(fernando, kayla).
+male(lewis).
+parent(fernando, lewis).
+parent(emma, lewis).
+parent(georgia, nick).
+son(nick, georgia).
+female(olivia).
+parent(jose, olivia).
+daughter(olivia, jose).
+male(paul).
+parent(jose, paul).
+female(rose).
+parent(katy, rose).
+daughter(rose, katy).
+parent(leon, rose).
+male(sam).
+parent(leon, sam).
+parent(katy, sam).
+son(sam, katy).
+female(tracy).
+parent(marie, tracy).
+parent(noah, tracy).
+parent(noah, umar).
+parent(marie, umar).
+female(vanessa).
+male(wayne).
+female(xana).
+male(mark).
+female(alexandra).
+female(casandra).
+male(dennis).
+female(georgia).
+male(harvey).
+female(ivy).
+male(jose).
+female(katy).
+male(leon).
+female(marie).
+male(noah).
+
+out:
+female(alice).
+parent(vanessa, alice).
+parent(wayne, alice).
+male(bob).
+parent(wayne, bob).
+parent(vanessa, bob).
+son(bob, vanessa).
+female(carol).
+parent(yosef, dave).
+parent(xana, dave).
+son(dave, xana).
+female(eve).
+parent(zara, eve).
+daughter(eve, zara).
+parent(mark, eve).
+daughter(eve, mark).
+male(frank).
+daughter(gina, alexandra).
+parent(alexandra, hunter).
+son(hunter, alexandra).
+daughter(isabelle, casandra).
+parent(dennis, isabelle).
+daughter(isabelle, dennis).
+male(jack).
+parent(casandra, jack).
+female(kayla).
+daughter(kayla, emma).
+parent(fernando, kayla).
+male(lewis).
+parent(fernando, lewis).
+parent(emma, lewis).
+parent(georgia, nick).
+son(nick, georgia).
+female(olivia).
+parent(jose, olivia).
+daughter(olivia, jose).
+male(paul).
+parent(jose, paul).
+female(rose).
+parent(katy, rose).
+daughter(rose, katy).
+parent(leon, rose).
+male(sam).
+parent(leon, sam).
+parent(katy, sam).
+son(sam, katy).
+female(tracy).
+parent(marie, tracy).
+parent(noah, tracy).
+parent(noah, umar).
+parent(marie, umar).
+female(vanessa).
+male(wayne).
+female(xana).
+male(mark).
+female(alexandra).
+female(casandra).
+male(dennis).
+female(georgia).
+male(harvey).
+female(ivy).
+male(jose).
+female(katy).
+male(leon).
+female(marie).
+male(noah).
+son(bob, wayne).
+son(bob, vanessa).
+son(jack, casandra).
+son(lewis, fernando).
+son(lewis, emma).
+son(paul, jose).
+son(sam, leon).
+son(sam, katy).
+
+in:
+parent(alexandra, alice).
+parent(alexandra, bob).
+parent(bill, carol).
+daughter(carol, bill).
+daughter(carol, casandra).
+male(dave).
+parent(casandra, dave).
+parent(bill, dave).
+son(dave, bill).
+parent(emma, frank).
+parent(dennis, frank).
+son(frank, dennis).
+female(gina).
+parent(fernando, gina).
+daughter(gina, fernando).
+male(hunter).
+parent(georgia, hunter).
+female(isabelle).
+parent(ivy, isabelle).
+male(jack).
+parent(ivy, jack).
+parent(harvey, jack).
+female(kayla).
+parent(jose, kayla).
+parent(katy, kayla).
+male(lewis).
+parent(katy, lewis).
+son(lewis, jose).
+female(mia).
+parent(marie, mia).
+parent(marie, nick).
+parent(leon, nick).
+daughter(olivia, noah).
+male(paul).
+parent(ollie, paul).
+parent(phil, rose).
+daughter(rose, phil).
+male(sam).
+parent(phil, sam).
+son(sam, phil).
+female(tracy).
+parent(taylor, tracy).
+son(umar, steve).
+parent(violet, vanessa).
+male(wayne).
+parent(violet, wayne).
+female(xana).
+parent(wilbert, xana).
+daughter(xana, wilbert).
+parent(xandra, xana).
+daughter(xana, xandra).
+male(yosef).
+parent(xandra, yosef).
+son(yosef, xandra).
+parent(wilbert, yosef).
+son(yosef, wilbert).
+daughter(zara, yuval).
+female(alexandra).
+male(bill).
+male(dennis).
+female(emma).
+male(fernando).
+female(georgia).
+male(harvey).
+male(jose).
+female(katy).
+female(ollie).
+male(phil).
+female(rachel).
+male(steve).
+female(violet).
+male(wilbert).
+female(xandra).
+male(yuval).
+
+out:
+parent(alexandra, alice).
+parent(alexandra, bob).
+parent(bill, carol).
+daughter(carol, bill).
+daughter(carol, casandra).
+male(dave).
+parent(casandra, dave).
+parent(bill, dave).
+son(dave, bill).
+parent(emma, frank).
+parent(dennis, frank).
+son(frank, dennis).
+female(gina).
+parent(fernando, gina).
+daughter(gina, fernando).
+male(hunter).
+parent(georgia, hunter).
+female(isabelle).
+parent(ivy, isabelle).
+male(jack).
+parent(ivy, jack).
+parent(harvey, jack).
+female(kayla).
+parent(jose, kayla).
+parent(katy, kayla).
+male(lewis).
+parent(katy, lewis).
+son(lewis, jose).
+female(mia).
+parent(marie, mia).
+parent(marie, nick).
+parent(leon, nick).
+daughter(olivia, noah).
+male(paul).
+parent(ollie, paul).
+parent(phil, rose).
+daughter(rose, phil).
+male(sam).
+parent(phil, sam).
+son(sam, phil).
+female(tracy).
+parent(taylor, tracy).
+son(umar, steve).
+parent(violet, vanessa).
+male(wayne).
+parent(violet, wayne).
+female(xana).
+parent(wilbert, xana).
+daughter(xana, wilbert).
+parent(xandra, xana).
+daughter(xana, xandra).
+male(yosef).
+parent(xandra, yosef).
+son(yosef, xandra).
+parent(wilbert, yosef).
+son(yosef, wilbert).
+daughter(zara, yuval).
+female(alexandra).
+male(bill).
+male(dennis).
+female(emma).
+male(fernando).
+female(georgia).
+male(harvey).
+male(jose).
+female(katy).
+female(ollie).
+male(phil).
+female(rachel).
+male(steve).
+female(violet).
+male(wilbert).
+female(xandra).
+male(yuval).
+son(dave, casandra).
+son(dave, bill).
+son(hunter, georgia).
+son(jack, ivy).
+son(jack, harvey).
+son(lewis, katy).
+son(paul, ollie).
+son(sam, phil).
+son(wayne, violet).
+son(yosef, xandra).
+son(yosef, wilbert).
+

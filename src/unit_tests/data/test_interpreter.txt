@@ -1,0 +1,20 @@
+in:
+male(bob).
+male(dave).
+female(alice).
+female(carol).
+mother(alice, dave).
+mother(alice, carol).
+father(bob, dave).
+father(bob, carol).
+
+out:
+male(bob).
+male(dave).
+female(alice).
+female(carol).
+mother(alice, dave).
+mother(alice, carol).
+father(bob, dave).
+father(bob, carol).
+daughter(carol, alice).
